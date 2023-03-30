@@ -43,7 +43,7 @@ function Secondpage() {
         <Column>
           <div id="desktop-grid" className = "my-plants">
           <Grid>
-            {plantList.length === 0 ? (<h3 className="muted">Use the search bar to search for plants and add them to your collection</h3>) : plantList.map((plant) => (
+            {plantList.length === 0 ? (<p className="muted">Use the search bar to search for plants and add them to your collection</p>) : plantList.map((plant) => (
               <Card plant={plant} />
             ))}
           </Grid>
