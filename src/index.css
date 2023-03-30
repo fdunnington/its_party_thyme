@@ -43,6 +43,7 @@ p {
   font-family: 'Gentium Book Plus', serif;
   font-size: 16px;
   letter-spacing: 1px;
+  padding: 0 10px;
 }
 
 a {
